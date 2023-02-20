@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/card_background"
+            android:elevation="5dp"
+            android:padding="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="5dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/imageRequest"
+                app:layout_constraintEnd_toStartOf="@+id/imageRequest"
+                app:layout_constraintTop_toTopOf="@+id/imageRequest" />
+
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/imageRequest"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="16dp"
+                android:background="#3E91EC"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:roundPercent="1"
+                app:srcCompat="@drawable/emergency" />
+
+            <TextView
+                android:id="@+id/nameRequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="55dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Name User"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageRequest"
+                app:layout_constraintStart_toEndOf="@+id/imageRequest"
+                app:layout_constraintTop_toTopOf="@+id/imageRequest" />
+
+            <TextView
+                android:id="@+id/dateRequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="12/12/2022"
+                android:textColor="#9CA0A2"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageRequest"
+                app:layout_constraintStart_toEndOf="@+id/imageRequest"
+                app:layout_constraintTop_toTopOf="@+id/imageRequest" />
+
+            <TextView
+                android:id="@+id/timeRequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="12:12:00 PM - 12:12:00 PM"
+                android:textColor="#9CA0A2"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageRequest"
+                app:layout_constraintStart_toEndOf="@+id/imageRequest"
+                app:layout_constraintTop_toBottomOf="@+id/dateRequest" />
+
+            <ImageView
+                android:id="@+id/btnRequest"
+                android:layout_width="50dp"
+                android:layout_height="39dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_arrow_circle_right_24" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

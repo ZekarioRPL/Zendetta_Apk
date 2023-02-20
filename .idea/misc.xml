@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/drawable/back_1.xml" value="0.2055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/drawable/card.xml" value="0.2055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/drawable/card_background.xml" value="0.2055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/drawable/img.xml" value="0.2055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/drawable/input_drawable.xml" value="0.2055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/drawable/lingkaran.xml" value="0.2055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/drawable/search_background.xml" value="0.2055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/drawable/setengah_lingkaran.xml" value="0.2055" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/activity_detail_request.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/fragment_patient.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/fragment_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/fragment_schedule.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/list_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/list_patient.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/layout/list_request.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Zendetta_App/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/IT SOFTWARE/AndroidStudioProjects/Android Old/Zendetta_App/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/IT SOFTWARE/AndroidStudioProjects/Android Old/Zendetta_App/app/src/main/res/layout/activity_detail_request.xml" value="0.1" />
+        <entry key="..\:/Users/IT SOFTWARE/AndroidStudioProjects/Android Old/Zendetta_App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/IT SOFTWARE/AndroidStudioProjects/Android Old/Zendetta_App/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/IT SOFTWARE/AndroidStudioProjects/Android Old/Zendetta_App/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/IT SOFTWARE/AndroidStudioProjects/Android Old/Zendetta_App/app/src/main/res/layout/fragment_patient.xml" value="0.1" />
+        <entry key="..\:/Users/IT SOFTWARE/AndroidStudioProjects/Android Old/Zendetta_App/app/src/main/res/layout/fragment_request.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
